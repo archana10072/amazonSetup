@@ -1,10 +1,9 @@
-package com.amazon.utils.listeners;
+package com.amazon.utils.customListeners;
 
 import com.amazon.base.BaseClass;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.Reporter;
 
 public class Listeners extends BaseClass implements ITestListener {
     public void onTestStart(ITestResult result) {
